@@ -9,7 +9,7 @@ app.use(cors({
     origin: [
         LOCAL_CLIENT,
         CLIENT,
-        'https://fawr-client.vercel.app/','http://localhost:5173/'
+        'https://fawr-client.vercel.app/','http://localhost:5173/','https://fawr-client.vercel.app'
     ],
     credentials: true,
     optionSuccessStatus: 200
